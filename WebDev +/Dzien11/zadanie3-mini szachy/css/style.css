@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.board {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50px;
+  left: 50px;
+  border: solid 4px black;
+}
+
+span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 50%;
+  background-color: red;
+
+}
+
+
+span:nth-child(2) {
+  top: 50%;
+  left: 50%;
+}

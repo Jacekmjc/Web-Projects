@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: arial, sans-serif;
+  background-color: gray;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+header > * {
+  position: absolute;
+}
+
+header img {
+  top: 3%;
+  left: 3%;
+}
+
+header h1 {
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  letter-spacing: 1px;
+}
+
+header button {
+  bottom: 80px;
+  right: 80px;
+  font-size: 40px;
+  padding: 10px 50px;
+  font-family: roboto condensed, arial, sans-serif;
+  text-transform: uppercase;
+  border: 4px solid white;
+  background-color: transparent;
+  color: white;
+  transition: .3s;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+@media(max-width:1024px) {
+  header {
+    background-size: cover;
+  }
+}
+
+@media(max-width:812px) {
+  header img {
+    width: 30%;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  header button {
+    bottom: 30px;
+    font-size: 26px;
+  }
+}
+
+@media(max-width:320px) {
+  header button {
+    right: 30px;
+  }
+}
+
+section {
+  margin-top: 80px;
+  width: 80%;
+  margin: 80px auto 80px auto;
+}
+
+section p {
+  color: white;
+  letter-spacing: 2px;
+}

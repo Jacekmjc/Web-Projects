@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-size: cover;
+  height: 80vh;
+  background-image: url("city.jpg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 100px;
+
+}
+
+
+h1 {
+  position: absolute;
+  bottom: 50px;
+  font-size: 80px;
+  font-family: arial, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+section {
+  width: 100vw;
+  line-height: 190%;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}

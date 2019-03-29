@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: darkorange;
+  font-size: 24px;
+  text-transform: uppercase;
+  min-width: 260px;
+  margin: 20px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  border: 3px solid darkorange;
+  transition: 0.3s;
+
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+  border: 3px solid #222;
+}

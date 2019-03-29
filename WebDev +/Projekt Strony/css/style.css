@@ -1,0 +1,1213 @@
+/*
+font-family: 'Saira Semi Condensed', sans-serif;
+font-family: 'Saira', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/*Sekcja HEADER*/
+
+header > * {
+  position: absolute;
+}
+
+header {
+  position: relative;
+  background-color: #29a6dc;
+  height: 100vh;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header img {
+  height: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+header div.welcome {
+  z-index: 1;
+  top: 7%;
+  left: 5%;
+  right: 5%;
+
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+
+
+header h1 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+header h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+header button {
+  font-family: 'Saira', sans-serif;
+  font-weight: 300;
+  line-height: 32px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  font-size: 12px;
+  border: 2px solid white;
+}
+
+
+
+
+
+
+
+@media (orientation:portrait) and (min-width:360px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header h2 {
+    font-size: 24px;
+  }
+
+  header button {
+    margin-top: 24px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+}
+
+
+@media (orientation:portrait) and (min-width:370px) {
+
+  header img {
+    height: 45%;
+    right: -10%;
+  }
+}
+
+
+@media (orientation:portrait) and (min-width:410px) {
+  header h1 {
+    font-size: 26px;
+  }
+
+  header h2 {
+    font-size: 26px;
+  }
+
+  header button {
+    margin-top: 40px;
+    line-height: 50px;
+    font-size: 18px;
+  }
+
+  header img {
+    height: 45%;
+  }
+
+}
+
+@media (orientation:portrait) and (min-width:760px) {
+
+
+  header p {
+    font-size: 40px;
+  }
+
+  header h1 {
+    margin-top: 45px;
+    font-size: 36px;
+  }
+
+  header h2 {
+    font-size: 36px;
+  }
+
+  header button {
+    font-size: 26px;
+    line-height: 80px;
+  }
+
+  header img {
+    height: 50%;
+    right: 0;
+  }
+}
+
+@media (orientation:portrait) and (min-width:1024px) {
+
+  header p {
+    font-size: 55px;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h2 {
+    font-size: 50px;
+  }
+
+  header button {
+    font-size: 28px;
+    line-height: 80px;
+  }
+}
+
+
+@media(orientation:landscape) {
+  header img {
+    height: 80%;
+    right: -5%;
+  }
+
+  header div.welcome {
+    left: 7%;
+    right: 48%;
+    top: 15%;
+  }
+
+  header button {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
+@media(orientation:landscape) and (min-width:573px) {
+  header img {
+    height: 50%;
+  }
+}
+
+
+
+
+@media(orientation:landscape) and (min-width:640px) {
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header button {
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+
+@media(orientation:landscape) and (min-width:823px) {
+
+  header img {
+    height: 70%;
+    right: -2%;
+  }
+}
+
+
+@media(orientation:landscape) and (min-width:884px) {
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2 {
+    font-size: 30px;
+  }
+
+  header button {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  header img {
+    right: -10%;
+    height: 60%;
+  }
+}
+
+@media(orientation:landscape) and (min-width:912px) {
+
+  div.welcome {
+    text-align: left;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2 {
+    font-size: 30px;
+  }
+
+  header button {
+    font-size: 20px;
+    line-height: 45px;
+  }
+
+
+  header img {
+    right: -20%;
+    height: 65%;
+
+  }
+
+}
+
+@media(orientation:landscape) and (min-width:1024px) {
+
+  div.welcome {
+    left: 3%;
+  }
+
+  header p {
+    font-size: 56px;
+  }
+
+  header h1 {
+    margin-top: 40px;
+    font-size: 34px;
+  }
+
+  header h2 {
+    font-size: 34px;
+  }
+
+  header button {
+    margin-top: 80px;
+    font-size: 28px;
+    line-height: 70px;
+  }
+
+  header img {
+    height: 75%;
+    right: -17%;
+  }
+}
+
+
+@media(orientation:landscape) and (min-width:1280px) {
+
+  div.welcome {
+    text-align: left;
+    left: 6%;
+  }
+
+  header p {
+    font-size: 100px;
+  }
+
+  header h1 {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+
+  header h2 {
+    font-size: 50px;
+  }
+
+  header button {
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 40px;
+    border-width: 2px;
+  }
+
+  header img {
+    height: 90%;
+    right: -22%;
+  }
+}
+
+@media(orientation:landscape) and (min-width:1600px) {
+
+  div.welcome {
+    text-align: left;
+    left: 6%;
+  }
+
+  header p {
+    font-size: 120px;
+  }
+
+  header h1 {
+    margin-top: 40px;
+    font-size: 60px;
+  }
+
+  header h2 {
+    font-size: 60px;
+  }
+
+  header button {
+    font-size: 30px;
+    line-height: 90px;
+  }
+
+  header img {
+    height: 90%;
+    right: -22%;
+  }
+}
+
+@media(orientation:landscape) and (min-width:1650px) {
+
+  header img {
+    height: 90%;
+    right: -10%;
+  }
+}
+
+
+@media(min-width:1024px) {
+  header button {
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  header button:hover {
+    background-color: #fff;
+    color: #111;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+section {
+  min-height: 30vh;
+}
+
+
+
+
+
+/*Sekcja CECHY*/
+
+.Cechy {
+  margin-top: 10%;
+  padding: 5%;
+  text-align: center;
+  max-width: 1920px;
+  mar
+}
+
+
+.Cechy h1 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.Cechy h2 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Cechy p {
+  font-family: 'Saira', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+
+
+.Cechy img {
+  width: 100%;
+  margin: 5px 0;
+  max-width: 375px;
+}
+
+@media (min-width:360px) {
+  .Cechy p {
+    font-size: 16px;
+  }
+
+  .Cechy h1 {
+    font-size: 28px;
+  }
+
+  .Cechy h2 {
+    font-size: 24px;
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .Cechy h1 {
+    font-size: 38px;
+  }
+
+  .Cechy h2 {
+    font-size: 34px;
+  }
+
+  .Cechy p {
+    font-size: 26px;
+  }
+}
+
+
+@media (min-width:1024px) {
+
+  .cecha {
+    float: left;
+    width: 33%;
+    padding: 3%;
+  }
+
+  .Cechy h2 {
+    font-size: 24px;
+  }
+
+  .Cechy p {
+    font-size: 22px;
+    line-height: 120%;
+  }
+}
+
+
+@media (min-width:1600px) {
+
+  .Cechy {
+    margin-top: 3%;
+  }
+
+  .cecha {
+    padding: 20px 40px;
+  }
+
+  .Cechy h2 {
+    font-size: 24px;
+  }
+
+  .Cechy p {
+    font-size: 22px;
+    line-height: 140%;
+  }
+}
+
+/*Sekcja PORTFOLIO*/
+
+
+.portfolio {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #222;
+  font-family: 'Saira', sans-serif;
+  padding: 10px 0 30px 0;
+}
+
+.portfolio h1 {
+  font-size: 28px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.portfolio .web img {
+  width: 100%;
+}
+
+.portfolio .about {
+  color: white;
+  font-family: 'Saira', sans-serif;
+  font-weight: normal;
+  padding: 2% 4%;
+  text-align: left;
+}
+
+.portfolio .about h2 {
+
+  font-size: 18px;
+  border-bottom: solid white;
+  margin-bottom: 3%;
+  padding-bottom: 2%;
+  text-indent: 10px;
+}
+
+
+.portfolio .about p {
+  font-size: 12px;
+}
+
+.portfolio .project {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+}
+
+.portfolio .project:nth-of-type(odd) {
+  background-color: #ff4f2c;
+}
+
+.portfolio .project:nth-of-type(even) {
+  background-color: #29a6dc;
+}
+
+@media(min-width:768px) {
+  .portfolio h1 {
+    font-size: 40px;
+  }
+
+  .portfolio .about h2 {
+    font-size: 28px;
+    text-indent: 40px;
+  }
+
+  .portfolio .about p {
+    font-size: 18px;
+  }
+
+  .portfolio .project {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media(orientation:landscape) {
+
+  .web,
+  .about {
+    width: 50%;
+    float: left;
+  }
+
+  .web img {
+    display: block;
+  }
+
+  .portfolio .project:nth-of-type(even) .web {
+    float: right;
+  }
+}
+
+
+
+}
+
+@media (orientation:landscape) and (min-width:1400px) {
+  .portfolio h1 {
+    font-size: 60px;
+    padding: 30px 0;
+  }
+
+  .portfolio .about h2 {
+    padding-top: 50px;
+    font-size: 28px;
+    text-indent: 40px;
+    margin-bottom: 30px;
+  }
+
+  .portfolio .about p {
+    font-size: 18px;
+    padding-left: 40px;
+    line-height: 180%;
+  }
+
+  .portfolio .project {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+/*Sekcja MOTTO*/
+
+
+.motto {
+  background-image: url('../images/motto.jpg');
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 1920px;
+  width: 100%;
+}
+
+.motto .wp {
+  min-height: 30vh;
+  width: 100%;
+  background-color: rgba(0, 25, 45, 0.5);
+  font-family: 'Saira', sans-serif;
+}
+
+
+.motto h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 40px 0;
+  color: white;
+}
+
+.motto p {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.motto h2 {
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+@media (orientation:portrait) and (min-width:360px) {
+  .motto p {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+
+  .motto h2 {
+    font-size: 14px;
+  }
+
+}
+
+@media (orientation:portrait) and (min-width:765px) {
+
+  .motto h1 {
+    font-size: 30px;
+  }
+
+  .motto p {
+    font-size: 20px;
+  }
+
+  .motto h2 {
+    font-size: 16px;
+  }
+}
+
+@media (orientation:portrait) and (min-width:1024px) {
+
+  .motto h1 {
+    font-size: 36px;
+  }
+
+  .motto p {
+    font-size: 28px;
+  }
+
+  .motto h2 {
+    font-size: 24px;
+  }
+}
+
+
+
+
+@media (orientation:landscape) {
+
+  .motto h1 {
+    font-size: 22px;
+    padding: 40px 0;
+  }
+
+  .motto p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .motto h2 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 20px 0;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (orientation:landscape) and (min-width:765px) {
+
+  .motto h1 {
+    font-size: 22px;
+    padding: 40px 0;
+  }
+
+  .motto p {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .motto h2 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 20px 0;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (orientation:landscape) and (min-width:1300px) {
+
+  .motto .wp {
+    height: 50vh;
+    line-height: 60px;
+  }
+
+
+  .motto h1 {
+    font-size: 30px;
+  }
+
+  .motto p {
+    font-size: 24px;
+  }
+
+  .motto h2 {
+    font-size: 18px;
+  }
+}
+
+/*Sekcja HOBBY*/
+
+
+.hobby {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+
+.hobby .item {
+  height: 25vh;
+}
+
+.hobby .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hobby .item:nth-of-type(1) {
+  background-image: url(../images/hobby1.jpg);
+}
+
+.hobby .item:nth-of-type(2) {
+  background-image: url(../images/hobby2.jpg);
+}
+
+.hobby .item:nth-of-type(3) {
+  background-image: url(../images/hobby3.jpg);
+}
+
+.hobby .item:nth-of-type(4) {
+  background-image: url(../images/hobby4.jpg);
+}
+
+
+.hobby .item p {
+  font-family: 'Saira', sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 4px black;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+
+.hobby h1 {
+  font-family: 'Saira semi condensed', sans-serif;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+
+
+
+@media (min-width:320px) and (orientation:portrait) {
+
+  .hobby {
+    padding: 0;
+    min-height: 25vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 25vh;
+
+  }
+
+}
+
+@media (min-width:768px) and (orientation:portrait) {
+
+  .hobby {
+    padding: 0;
+    min-height: 37.3vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 37.3vh;
+
+  }
+}
+
+
+@media (min-width:1024px) and (orientation:portrait) {
+
+  .hobby {
+    padding: 0;
+    min-height: 38vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 38vh;
+
+  }
+}
+
+@media (min-width:320px) and (orientation:landscape) {
+
+  .hobby {
+    padding: 0;
+    min-height: 40vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 40vh;
+
+  }
+
+}
+
+
+
+@media (min-width:533px) {
+  .hobby .item {
+    float: left;
+    width: 50%;
+    height: 40vh;
+  }
+
+}
+
+
+@media (min-width:317px) {
+  .hobby {
+    padding: 0;
+    min-height: 25vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 25vh;
+
+  }
+}
+
+
+@media (min-width:500px) {
+  .hobby {
+    padding: 0;
+    min-height: 25vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 25vh;
+
+  }
+}
+
+@media (min-width:528px) {
+  .hobby {
+    padding: 0;
+    min-height: 40vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 40vh;
+
+  }
+}
+
+
+@media (min-width:768px) {
+
+  .hobby h1 {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .hobby .item p {
+    font-size: 40px;
+    padding: 15px 0;
+  }
+
+}
+
+@media (min-width:780px) {
+  .hobby {
+    padding: 0;
+    min-height: 40vh;
+  }
+
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    line-height: 40vh;
+
+  }
+}
+
+
+@media(min-width:1104px) and (orientation:landscape) {
+  .hobby .item p {
+    display: block;
+    padding: 0;
+    line-height: 40vh;
+    opacity: 0;
+    transition: .5s;
+  }
+
+
+  .hobby .item:hover p {
+    opacity: 1;
+  }
+
+  .hobby .item {
+    background-size: 100%;
+    transition: .5s;
+  }
+
+  .hobby .item:hover {
+    background-size: 130%;
+  }
+}
+
+
+/*Sekcja KONTAKT*/
+
+
+.contact {
+  background-color: #000;
+  padding: 30px 20px;
+}
+
+.contact h1 {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+}
+
+.contact .wrap {
+  padding-top: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact button,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 25px;
+  font-family: 'Saira', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.contact input {
+  height: 30px;
+  font-size: 18px;
+}
+
+.contact textarea {
+  height: 120px;
+  font-size: 18px;
+}
+
+.contact button {
+  font-style: 25px;
+  line-height: 50px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+
+.contact .socials {
+  font-size: 0;
+
+}
+
+.contact .social {
+  font-family: 'Saira', sans-serif;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.contact .social img {
+  float: left;
+  padding: 10px 0;
+}
+
+.contact .social span {
+  padding: 10px 0;
+  line-height: 72px;
+  padding-left: 20px;
+  float: left;
+}
+
+
+@media(min-width:533px) {
+  .contact .social {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .contact h1 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+}
+
+@media(min-width:1024px) {
+
+  .contact h1 {
+    font-size: 50px;
+    padding: 30px 0;
+  }
+
+  .contact form,
+  .contact .socials {
+    float: left;
+    width: 50%;
+  }
+
+
+  .contact .social {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact .social span {
+    width: 55%;
+  }
+
+  .contact button {
+    font-size: 25px;
+    line-height: 50px;
+    transition: .4s;
+    cursor: pointer;
+  }
+
+  .contact button:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .contact input {
+    height: 46px;
+    font-size: 24px;
+  }
+
+  .contact textarea {
+    height: 180px;
+    font-size: 24px;
+  }
+
+  .contact input,
+  .contact button,
+  .contact textarea {}
+}
+
+footer {
+  background-color: #29a6dc;
+  color: white;
+  font-family: 'Saira', sans-serif;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}

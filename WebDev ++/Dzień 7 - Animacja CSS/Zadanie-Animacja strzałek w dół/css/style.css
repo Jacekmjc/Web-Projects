@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.arrow {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background-color: royalblue;
+    border: 6px solid black;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    font-size: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.arrow i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ruch .8s linear infinite both;
+    color: white;
+    text-shadow: 0 -20px 0 white, 0 -40px 0 white;
+}
+
+
+@keyframes ruch {
+
+    0% {
+        top: -20%;
+    }
+
+
+    100% {
+        top: 150%;
+    }
+
+}

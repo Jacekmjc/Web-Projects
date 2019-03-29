@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: arial;
+}
+
+
+button {
+    display: block;
+    border: 2px solid #555555;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 50px auto 0 auto;
+    cursor: pointer;
+    transition: .2s;
+    letter-spacing: 1px;
+}
+
+.square {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    transition: left .5s, top .5s .5s;
+}
+
+button:hover {
+    background-color: #bbb;
+    color: black;
+}
+
+button:hover~.square {
+    left: calc(100% - 30px);
+    top: calc(100% - 30px);
+}

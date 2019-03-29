@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    width: 700px;
+    height: 500px;
+    transform: translate(-50%, -10%);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+img:nth-of-type(2) {
+    animation: zmiana 8s .5s infinite linear;
+}
+
+
+@keyframes zmiana {
+
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    15% {
+        opacity: 0;
+    }
+
+
+    60% {
+        opacity: 0;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+
+
+    100% {
+        opacity: 1;
+    }
+
+}

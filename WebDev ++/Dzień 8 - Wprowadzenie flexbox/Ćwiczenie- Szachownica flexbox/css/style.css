@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    width: 25vw;
+    height: 25vw;
+    /* background-color: #000; */
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+
+div {
+    flex-basis: 20%;
+    height: 20%;
+    background-color: #000000;
+}
+
+div:nth-of-type(odd) {
+    background-color: #fff;
+}

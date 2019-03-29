@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+
+.s1,
+.s2 {
+    flex-basis: 50%;
+    height: 100vh;
+    transition: .3s;
+}
+
+.red {
+    background-color: red;
+}

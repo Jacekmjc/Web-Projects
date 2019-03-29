@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --textSize: 80px;
+}
+
+
+button {
+    font-size: 40px;
+    margin: 10px;
+}
+
+h1 {
+    position: absolute;
+    font-family: arial;
+    font-size: var(--textSize);
+    top: 35%;
+    left: 35%;
+    transform: translate(-35%, -35%);
+    transition: .3s;
+    border: 0px solid black;
+}
+
+
+h1.duzy {
+    font-size: calc(var(--textSize)*2);
+}
+
+h1.smaller {
+    font-size: calc(var(--textSize)/2);
+}
+
+h1.border {
+    border: 10px solid black;
+}
+
+/* .larger:hover~h1 {
+    font-size: calc(var(--textSize)*2);
+} */
+
+/* .smaller:hover~h1 {
+    font-size: calc(var(--textSize)/2);
+}
+
+.border:hover~h1 {
+    border: 10px solid black;
+} */
